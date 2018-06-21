@@ -1,0 +1,27 @@
+html,body {
+    padding: 0;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header {
+    background-color: blueviolet;
+    flex: 0 0 40px;
+    color: white;
+    /* justify-content: center; */
+    padding: 20px;
+}
+header nav {
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
